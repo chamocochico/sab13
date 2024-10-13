@@ -1,0 +1,31 @@
+.padre{
+    padding: 5px;
+    background-color: rgb(233, 252, 255);
+    display: grid;
+    grid-gap: 8px;
+    grid-template-columns: 5fr 2fr;
+    grid-template-areas: "header header"
+                        "nav    nav"
+                        "con1   cont2"
+                        "footer footer";
+}
+.padre .header{
+    grid-area: header;
+}
+.padre .nav{
+    grid-area: nav;
+}
+.padre .cont1{
+    grid-area: cont1;
+}
+.padre .cont2{
+    grid-area: cont2;
+}
+.padre .cont3{
+    grid-area: cont3;
+}
+.padre .footer{
+    grid-area: footer;
+}
+
+/*@media screen(max) {*/
